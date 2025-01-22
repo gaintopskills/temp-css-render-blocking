@@ -21,7 +21,7 @@ const footerData = [
     title: "Other Services",
     items: [
       { label: "Custom Patches", href: "/los-angeles-photographic-embroidery/", title: "Order custom patches for your brand" },
-      { label: "Photographic Embroidery", href: "/services/logo-design", title: "Get professional logo design services" },
+      { label: "Photographic Embroidery", href: "/los-angeles-photographic-embroidery/", title: "Get professional logo design services" },
       { label: "Promotional Products", href: "//2017/11/05/promotional-products/", title: "Create custom labels and tags" },
       { label: "Private Labeling", href: "/services/private-labeling", title: "Launch your own private label brand" },
       { label: "Brand Consulting", href: "/services/brand-consulting", title: "Receive expert brand consulting" },
