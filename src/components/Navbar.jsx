@@ -12,18 +12,18 @@ const navbarLinks = [
     ariaLabel: 'Services',
     children: [
       { label: 'Embroidery', href: '/custom-embroidery-services-high-volume/', ariaLabel: 'Sub-feature 3' },
-      { label: 'Screen Printing', href: '../custom-patches-los-angeles', ariaLabel: 'Sub-feature 4' },
-      { label: 'DTG', href: '/sub-feature5', ariaLabel: 'Sub-feature 5'},
-      { label: 'Digital Sublimation', href: '/sub-feature6', ariaLabel: 'Sub-feature 6'},
-      { label: 'Heat Transfer', href: '/sub-feature7', ariaLabel: 'Sub-feature 7'},
-      { label: 'Cut & Saw', href: '/sub-feature6', ariaLabel: 'Sub-feature 6'},
+      { label: 'Screen Printing', href: '/screen-printing-dirrect-to-guarment/', ariaLabel: 'Sub-feature 4' },
+      { label: 'DTG', href: '/los-angeles-screen-printing-direct-to-garment-dtg/', ariaLabel: 'Sub-feature 5'},
+      { label: 'Digital Sublimation', href: '/los-angeles-digital-sublimation-printing/', ariaLabel: 'Sub-feature 6'},
+      { label: 'Heat Transfer', href: '/los-angeles-heat-transfer/', ariaLabel: 'Sub-feature 7'},
+      { label: 'Cut & Saw', href: '/heat-transfer-los-angeles/', ariaLabel: 'Sub-feature 6'},
     ],
   },
   { label: 'Galley', href: '../custom-embroidery-services', ariaLabel: 'Galley' },
-  { label: 'Events', href: '/#feedback', ariaLabel: 'Events' },
-  { label: 'Free Quote', href: '/#FAQ', ariaLabel: 'Free Quote' },
-  { label: 'About Us', href: '/#FAQ', ariaLabel: 'About Us' },
-  { label: 'Contact', href: '/#FAQ', ariaLabel: 'Contact' },
+  { label: 'Events', href: '/onsite-live-embroidery-events-los-angeles/', ariaLabel: 'Events' },
+  { label: 'Free Quote', href: '/free-quote/', ariaLabel: 'Free Quote' },
+  { label: 'About Us', href: '/about-us/', ariaLabel: 'About Us' },
+  { label: 'Contact', href: '/contact-us/', ariaLabel: 'Contact' },
 ];
 
 export const Navbar = () => {

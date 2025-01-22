@@ -7,29 +7,31 @@ const footerData = [
   {
     title: "Services",
     items: [
-      "Embroidery",
-      "Screen Printing",
-      "DTG",
-      "Digital Sublimation",
-      "Heat Transfer",
-      "Cut & Sew",
-      "Blank Apparel",
+      { label: "Embroidery", href: "/custom-patches-los-angeles/", title: "Explore our embroidery services" },
+      { label: "Screen Printing", href: "/screen-printing-dirrect-to-guarment/", title: "Learn about screen printing" },
+      { label: "DTG", href: "/los-angeles-screen-printing-direct-to-garment-dtg/", title: "Discover Direct to Garment (DTG) printing" },
+      { label: "Digital Sublimation", href: "/los-angeles-digital-sublimation-printing/", title: "View our sublimation printing options" },
+      { label: "Heat Transfer", href: "/los-angeles-heat-transfer/", title: "Find out more about heat transfer printing" },
+      { label: "Cut & Sew", href: "/services/cut-sew", title: "Get custom cut & sew manufacturing" },
+      { label: "Blank Apparel", href: "/services/blank-apparel", title: "Browse our blank apparel collection" },
+      { label: "Events", href: "/onsite-live-embroidery-events-los-angeles/", title: "Browse our blank apparel collection" },
     ],
   },
   {
     title: "Other Services",
     items: [
-      "Custom Patches",
-      "Logo Design",
-      "Custom Labels & Tags",
-      "Private Labeling",
-      "Brand Consulting",
+      { label: "Custom Patches", href: "/los-angeles-photographic-embroidery/", title: "Order custom patches for your brand" },
+      { label: "Photographic Embroidery", href: "/services/logo-design", title: "Get professional logo design services" },
+      { label: "Promotional Products", href: "//2017/11/05/promotional-products/", title: "Create custom labels and tags" },
+      { label: "Private Labeling", href: "/services/private-labeling", title: "Launch your own private label brand" },
+      { label: "Brand Consulting", href: "/services/brand-consulting", title: "Receive expert brand consulting" },
     ],
   },
   {
     title: "Company",
     items: [
-      "About Us",
+      { label: "About Us", href: "/about", title: "Learn more about our company" },
+      { label: "Contact Us", href: "/contact", title: "Get in touch with us" },
       {
         type: "map",
         content: (
@@ -95,73 +97,36 @@ export const Footer = () => {
             <div className="w-full lg:w-2/3 lg:pl-16 hidden lg:flex flex-wrap justify-between">
               
               {/* Services Column */}
-              <div className="w-full md:w-1/3 lg:w-auto mb-16 md:mb-0">
-                <h3 className="mb-6 text-2xl font-bold text-primaryText">
-                  {footerData[0].title}
-                </h3>
-                <ul>
-                  {footerData[0].items.map((item, index) => (
-                    <li key={`${item}-${index}`} className="mb-4">
-                      <a
-                        className="text-gray-400 hover:text-gray-300"
-                        href="#"
-                        aria-label={item}
-                      >
-                        {item}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-
-              {/* Other Services Column */}
-              <div className="w-full md:w-1/3 lg:w-auto mb-16 md:mb-0">
-                <h3 className="mb-6 text-2xl font-bold text-primaryText">
-                  {footerData[1].title}
-                </h3>
-                <ul>
-                  {footerData[1].items.map((item, index) => (
-                    <li key={`${item}-${index}`} className="mb-4">
-                      <a
-                        className="text-gray-400 hover:text-gray-300"
-                        href="#"
-                        aria-label={item}
-                      >
-                        {item}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-
-              {/* Company Column (Includes "Contact Us" with Map) */}
-              <div className="w-full md:w-1/3 lg:w-auto">
-                <h3 className="mb-6 text-2xl font-bold text-primaryText">
-                  {footerData[2].title}
-                </h3>
-                <ul>
-                  {footerData[2].items.map((item, index) => {
-                    if (typeof item === "object" && item.type === "map") {
+              {footerData.map((section, index) => (
+                <div key={index} className="w-full md:w-1/3 lg:w-auto mb-16 md:mb-0">
+                  <h3 className="mb-6 text-2xl font-bold text-primaryText">
+                    {section.title}
+                  </h3>
+                  <ul>
+                    {section.items.map((item, idx) => {
+                      if (typeof item === "object" && item.type === "map") {
+                        return (
+                          <li key={`map-${idx}`}>
+                            {item.content}
+                          </li>
+                        );
+                      }
                       return (
-                        <li key={`map-${index}`}>
-                          {item.content}
+                        <li key={`link-${idx}`} className="mb-4">
+                          <a
+                            className="text-gray-400 hover:text-gray-300"
+                            href={item.href}
+                            title={item.title}  // Adds tooltip title
+                            aria-label={item.label}
+                          >
+                            {item.label}
+                          </a>
                         </li>
                       );
-                    }
-                    return (
-                      <li key={`link-${index}`} className="mb-4">
-                        <a
-                          className="text-gray-400 hover:text-gray-300"
-                          href="#"
-                          aria-label={item}
-                        >
-                          {item}
-                        </a>
-                      </li>
-                    );
-                  })}
-                </ul>
-              </div>
+                    })}
+                  </ul>
+                </div>
+              ))}
 
             </div>
           </div>
