@@ -698,6 +698,76 @@ border-radius: 15px;}
   transform: scale(1); /* Zooms in to full size */
 }
 /*End Fade in bg at the top */
+
+
+
+
+/* Container with left and right margins */
+.image-text-container {
+  max-width: 100%;
+  margin: 0 auto; /* Centers the block */
+  padding: 0 5%;
+}
+
+/* Image wrapper with float */
+.image-wrapper {
+  float: left; /* Floats image to the left */
+  width: 40%; /* Ensures it takes up 40% width on large screens */
+  max-width: 500px;
+  margin-right: 20px; /* Adds spacing between image and text */
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover effect */
+.image-wrapper img:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 3px 5px 2px rgba(0, 0, 0, 0.2), 3px 2px 3px 0px rgba(0, 0, 0, 0.14), 3px 3px 14px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+}
+
+/* Caption styling */
+.image-wrapper figcaption {
+  font-size: 16px;
+  color: #ddd; /* Light gray for readability on dark background */
+  font-style: italic;
+  text-align: center;
+  margin-top: 5px;
+}
+
+/* Text content */
+.text-content {
+  /* Removed overflow: hidden; to allow text wrapping */
+  color: #ddd; /* Light gray for readability on dark background */
+}
+
+/* Responsive Design: Stacks Image on Top on Mobile */
+@media (max-width: 768px) {
+  .image-wrapper {
+    float: none; /* Removes float so image stacks above text */
+    width: 100%; /* Makes image full width */
+    max-width: 100%;
+    margin-right: 0; /* Removes right margin */
+    text-align: center;
+  }
+
+  .image-wrapper img {
+    display: block;
+    margin: 0 auto; /* Centers image */
+    max-width: 300px; /* Prevents it from getting too big */
+  }
+
+  .text-content {
+    text-align: center; /* Centers text */
+  }
+}
+
     </style>
   </body>
 </html>
