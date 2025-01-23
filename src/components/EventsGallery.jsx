@@ -43,7 +43,7 @@ export const EventsGallery = () => {
         { src: "/events-gallery/heidi-klum/los-angeles-custom-embroidery-event-heidi-klum-Bra-Brunch-dtla.jpg", album: "Heidi Klum Bra Brunch" },
     ];
 
-    const [selectedCategory, setSelectedCategory] = useState("All");
+    const [selectedCategory, setSelectedCategory] = useState("Cotton On");
     const [lightboxImage, setLightboxImage] = useState(null);
 
     const filteredImages = selectedCategory === "All"
