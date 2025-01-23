@@ -3,27 +3,27 @@ import React, { useState } from "react";
 const videoData = [
   {
     id: "1",
-    title: "Amazing Event Highlights",
-    thumbnail: "/events-gallery/cotton-on/20170802_161812.jpg",
+    title: "Altos Tequila",
+    thumbnail: "/events-gallery/custom-embroidery-on-hats-event-los-angeles.webp",
     url: "https://www.youtube.com/embed/YX7RrMCnVfw",
   },
   {
     id: "2",
-    title: "Behind The Scenes",
-    thumbnail: "https://img.youtube.com/vi/3JZ_D3ELwOQ/maxresdefault.jpg",
-    url: "https://www.youtube.com/embed/3JZ_D3ELwOQ",
+    title: "Cotton On",
+    thumbnail: "/events-gallery/custom-on-site-embroidery-custom-clothes-los-angeles.webp",
+    url: "https://www.youtube.com/embed/1Q1Du_Uq-hI",
   },
   {
     id: "3",
-    title: "Customer Testimonials",
-    thumbnail: "https://img.youtube.com/vi/LXb3EKWsInQ/maxresdefault.jpg",
-    url: "https://www.youtube.com/embed/LXb3EKWsInQ",
+    title: "Heidi Klum",
+    thumbnail: "/events-gallery/on-site-custom-embroidery-events-los-angeles.webp",
+    url: "https://www.youtube.com/embed/TM6i_FIgLfM",
   },
   {
     id: "4",
-    title: "How We Work",
-    thumbnail: "https://img.youtube.com/vi/XqZsoesa55w/maxresdefault.jpg",
-    url: "https://www.youtube.com/embed/XqZsoesa55w",
+    title: "A Bikini a Day",
+    thumbnail: "/events-gallery/custom-on-site-embroidery-los-angeles.webp",
+    url: "https://www.youtube.com/embed/6M5u69c5HJw",
   },
 ];
 
