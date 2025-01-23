@@ -27,12 +27,12 @@ export const EventsGallery = () => {
         { src: "/events-gallery/guess/Guess-3rd-Street-Store-Event-Custom-Events-with-embroidered-products-1.jpg", album: "Guess 3rd Street" },
         { src: "/events-gallery/guess/Guess-3rd-Street-Store-Event-Custom-Events-with-embroidered-products.jpg", album: "Guess 3rd Street" },
         
-        { src: "/event-gallery/guess-bikini/Los-Angeles-Embroidery-A-Bikini-A-Dya-by-guess-custom-towels-h-and-a.jpg,", album: "Bikini a Day by Guess" },
-        { src: "/event-gallery/guess-bikini/Los-Angeles-Embroidery-A-Bikini-A-Dya-by-guess-custom-towels-Custom-Embroidery-Events.jpg", album: "Bikini a Day by Guess" },
-        { src: "/event-gallery/guess-bikini/Los-Angeles-Embroidery-A-Bikini-A-Dya-by-guess-custom-towels.jpg", album: "Bikini a Day by Guess" },
-        { src: "/event-gallery/guess-bikini/Los-Angeles-Embroidery-A-Bikini-A-Dya-by-guess-custom-towel.jpg", album: "Bikini a Day by Guess" },
-        { src: "/event-gallery/guess-bikini/Los-Angeles-Embroidery-A-Bikini-A-Dya-by-guess.jpg", album: "Bikini a Day by Guess" },
-        { src: "/event-gallery/guess-bikini/Embroidery-near-me-A-Bikini-A-Dya-by-guess-custom-towels-.jpg", album: "Bikini a Day by Guess" },
+        { src: "/event-gallery/guess-bikini/guess-bikini1.jpg", album: "Bikini a Day by Guess" },
+        { src: "/event-gallery/guess-bikini/guess-bikini2.jpg", album: "Bikini a Day by Guess" },
+        { src: "/event-gallery/guess-bikini/guess-bikini3.jpg", album: "Bikini a Day by Guess" },
+        { src: "/event-gallery/guess-bikini/guess-bikini4.jpg", album: "Bikini a Day by Guess" },
+        { src: "/event-gallery/guess-bikini/guess-bikini5.jpg", album: "Bikini a Day by Guess" },
+        { src: "/event-gallery/guess-bikini/guess-bikini6.jpg", album: "Bikini a Day by Guess" },
        
         { src: "/event-gallery/heidi-klum/los-angeles-custom-embroidery-event-heidi-klum-Bra-Brunch-los-angeles.jpg", album: "Heidi Klum Bra Brunch" },
         { src: "/event-gallery/los-angeles-custom-embroidery-event-heidi-klum-Bra-Brunch-la-model.jpg", album: "Heidi Klum Bra Brunch" },
