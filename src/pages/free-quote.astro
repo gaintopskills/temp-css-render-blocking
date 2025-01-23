@@ -1,0 +1,30 @@
+---
+import Layout from '../layouts/Layout.astro'
+import { Navbar } from '../components/Navbar.jsx'
+import { Footer } from '../components/Footer.jsx'
+import { ScrollUpButton } from '../components/ScrollUpButton.jsx'
+---
+
+<Layout title="Tailcast">
+  <Navbar client:load />
+  <div class="container mx-auto p-4 mt-8">
+  <h1>Get You Free Quote</h1>
+
+    <iframe
+      id="JotFormIFrame-72746320627154"
+      title="E&R Unlimited Quote For Custom Embroidery/Printing Services SB"
+      onload="window.parent.scrollTo(0,0)"
+      allowtransparency="true"
+      allow="geolocation; microphone; camera; fullscreen"
+      src="https://form.jotform.com/72746320627154"
+      frameborder="0"
+      style="min-width:100%;max-width:100%;height:539px;border:none;"
+      scrolling="no"
+    >
+    </iframe>
+    <script src='https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js'></script>
+    <script>window.jotformEmbedHandler("iframe[id='JotFormIFrame-72746320627154']", "https://form.jotform.com/")</script>
+    </div>
+  <Footer />
+  <ScrollUpButton client:load />
+</Layout>
