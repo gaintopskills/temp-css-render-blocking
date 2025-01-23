@@ -1,0 +1,78 @@
+---
+import Layout from '../layouts/Layout.astro'
+import { Navbar } from '../components/Navbar.jsx'
+import { Footer } from '../components/Footer.jsx'
+import { ScrollUpButton } from '../components/ScrollUpButton.jsx'
+---
+
+<Layout title="Onsite Embroidery Events">
+  <Navbar client:load />
+  <div class="container mx-auto p-4 mt-8">
+  <h1>Onsite Embroidery Events</h1>
+  <div class="image-text-container">
+  <figure class="image-wrapper">
+    <img
+      src="/events/los-angeles-onsite-embroidery.jpg"
+      alt="Onsite Embroidery Events"
+      width="500"
+      height="500"
+    />
+    <figcaption>Onsite Embroidery Events</figcaption>
+  </figure>
+
+  <div class="text-content">
+  <div class="relative bg-gradient-to-br from-yellow-500 to-orange-600 text-white p-8 md:p-10 rounded-xl shadow-2xl max-w-2xl mx-auto text-center border-4 border-yellow-300">
+    <h2 class="text-3xl md:text-4xl font-bold uppercase tracking-wider drop-shadow-lg transform hover:scale-105 transition duration-300">
+        💎 Stand Out with Personalized Giveaways!
+    </h2>
+    <div class="flex flex-wrap justify-center items-center gap-6 mt-10 text-white">
+    <!-- FREE Quote (External Link) -->
+    <a href="/free-quote"
+        class="relative px-8 py-4 text-lg font-bold uppercase rounded-full transition-all duration-300 transform shadow-lg bg-gradient-to-r from-blue-500 to-blue-700 hover:scale-110 hover:shadow-blue-500/50 ring-2 ring-blue-500">
+        FREE Quote
+    </a>
+
+    <!-- Vertical Line Separator -->
+    <span class="text-white text-2xl">|</span>
+
+    <!-- FAQs (On-Page Anchor) -->
+    <a href="#faqs"
+        class="relative px-8 py-4 text-lg font-bold uppercase rounded-full transition-all duration-300 transform shadow-lg bg-gradient-to-r from-gray-700 to-gray-900 hover:scale-110 hover:shadow-gray-500/50 ring-2 ring-gray-500">
+        FAQs
+    </a>
+
+    <!-- Vertical Line Separator -->
+    <span class="text-white text-2xl">|</span>
+
+    <!-- Event Videos (External Link) -->
+    <a href="/event-videos"
+        class="relative px-8 py-4 text-lg font-bold uppercase rounded-full transition-all duration-300 transform shadow-lg bg-gradient-to-r from-green-500 to-green-700 hover:scale-110 hover:shadow-green-500/50 ring-2 ring-green-500">
+        Event Videos
+    </a>
+
+    <!-- Vertical Line Separator -->
+    <span class="text-white text-2xl">|</span>
+
+    <!-- Gallery (On-Page Anchor) -->
+    <a href="#gallery"
+        class="relative px-8 py-4 text-lg font-bold uppercase rounded-full transition-all duration-300 transform shadow-lg bg-gradient-to-r from-purple-500 to-purple-700 hover:scale-110 hover:shadow-purple-500/50 ring-2 ring-purple-500">
+        Gallery
+    </a>
+</div>
+
+    <p class="text-lg md:text-xl mt-4 font-medium leading-relaxed transform hover:scale-105 transition duration-300">
+        Make a lasting impression by branding your name & marketing your product. Personalize your guest requests with their name or monogram!
+    </p>
+    <p class="mt-5 text-gray-900 text-lg font-semibold bg-white px-4 py-2 rounded-md inline-block">
+        For serious inquiries, use the form for a <span class="text-orange-600">FREE quote</span>.
+    </p>
+</div>
+</div></div>
+
+
+
+
+</div>
+  <Footer />
+  <ScrollUpButton client:load />
+</Layout>
