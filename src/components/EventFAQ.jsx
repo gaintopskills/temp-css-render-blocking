@@ -18,9 +18,19 @@ const FAQData = [
       "We may authorize extra hours at the event for an additional cost accordingly.",
   },
   {
-    question: "Do you offer variouse fonts and thread colors?",
-    answer:
-      "Yes, our machines include up to 6 font choices (see below), and we can also include up to 8 thread colors.",
+    question: "Do you offer various fonts and thread colors?",
+    answer: (
+      <div>
+        <p>
+          Yes, our machines include up to 6 font choices (see below), and we can also include up to 8 thread colors.
+        </p>
+        <img
+          src="/events/onsite-font-choices.webp"  // Replace with actual image path
+          alt="Font and Thread Color Options"
+          className="mt-4 w-full max-w-md rounded-lg shadow-lg"
+        />
+      </div>
+    ),
   },
   {
     question: "What if we want a font that is not part part of the 6 fonts built into your new machine?",
@@ -70,9 +80,6 @@ export const EventFAQ = () => (
       transition={{ duration: 0.5, delay: 0.2 }}
     >
       <div className="relative z-10 max-w-4xl mx-auto">
-        <p className="text-center text-lg text-gray-400 tracking-wide uppercase">
-          Have any questions?
-        </p>
         <h2 className="text-center text-4xl font-bold text-white mb-10">
           Frequently Asked Questions
         </h2>
