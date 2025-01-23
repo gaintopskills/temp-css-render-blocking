@@ -13,22 +13,23 @@ export const EventsGallery = () => {
     ];
 
     const images = [
-        { src: "/events-gallery/cotton-on/20170802_161812.jpg", album: "Cotton On" },
         { src: "/events-gallery/cotton-on/20170802_161812a.jpg", album: "Cotton On" },
         { src: "/events-gallery/cotton-on/20170802_161812b.jpg", album: "Cotton On" },
         { src: "/events-gallery/cotton-on/20170802_161812d.jpg", album: "Cotton On" },
         { src: "/events-gallery/cotton-on/20170802_161812c.jpg", album: "Cotton On" },
         { src: "/events-gallery/cotton-on/20170802_161812v.jpg", album: "Cotton On" },
         { src: "/events-gallery/cotton-on/cotton-on-events-with-custom-embroidered-products-los-angeles-la.jpg", album: "Cotton On" },
-        { src: "/embroidery/custom-embroidery-services-los-angeles.webp", album: "Embroidery" },
-        { src: "/embroidery/wholesale-custom-embroidered-hats.webp", album: "Embroidery" },
-        { src: "/embroidery/wilson-custom-embroidery.webp", album: "Embroidery" },
-        { src: "/embroidery/google-cloud-custom-embroidery-logo.webp", album: "Embroidery" },
-        { src: "/embroidery/high-end-custom-embroidery-los-angeles.webp", album: "Embroidery" },
-        { src: "/embroidery/los-angeles-custom-embroidery-selena-gomez-custom-selebrity-jacket.webp", album: "Embroidery" },
-        { src: "/embroidery/dtla-los-angeles-custom-adaptation-clothing-fashion-embroidery-design-embroidered-buttoned-long-shirt-red-flowers.webp", album: "Embroidery" },
-        { src: "/embroidery/los-angeles-custom-fashion-embroidery-frame-denim-jacket-by-sasha-designer-clothes.webp", album: "Embroidery" },
-        { src: "/embroidery/los-angeles-embroidery-fashion-frame-denim-jacket-by-sasha-designer-apparel.webp", album: "Embroidery" },
+        
+        { src: "/events-gallery/guess/Guess-3rd-Street-Store-Event-Custom-Events-with-embroidered-products-la.jpg", album: "Guess" },
+        { src: "/events-gallery/guess/Guess-3rd-Street-Store-Event-Custom-Events-with-embroidered-products-ca.jpg", album: "Guess" },
+        { src: "/events-gallery/guess/Guess-3rd-Street-Store-Event-Custom-Events-with-embroidered-products-7.jpg", album: "Guess" },
+        { src: "/events-gallery/guess/Guess-3rd-Street-Store-Event-Custom-Events-with-embroidered-products-6.jpg", album: "Guess" },
+        { src: "/events-gallery/guess/Guess-3rd-Street-Store-Event-Custom-Events-with-embroidered-products-4.jpg", album: "Guess" },
+        { src: "/events-gallery/guess/Guess-3rd-Street-Store-Event-Custom-Events-with-embroidered-products-3.jpg", album: "Guess" },
+        { src: "/events-gallery/guess/Guess-3rd-Street-Store-Event-Custom-Events-with-embroidered-products-2.jpg", album: "Guess" },
+        { src: "/events-gallery/guess/Guess-3rd-Street-Store-Event-Custom-Events-with-embroidered-products-1.jpg", album: "Guess" },
+        { src: "/events-gallery/guess/Guess-3rd-Street-Store-Event-Custom-Events-with-embroidered-products.jpg", album: "Guess" },
+        
         { src: "/embroidery/los-angeles-embroidery-fashion-frame-denim-jeans-by-sasha-designer-clothes-custom-artwork.webp", album: "Embroidery" },
         { src: "/embroidery/los-angeles-embroidery-fashion-frame-denim-jeans-by-sasha-designer-clothes-custom-patches.webp", album: "Embroidery" },
         { src: "/patches/DTLA-Downtown-LA-Los-Angeles-Custom-Patches-3d-puff-embroidery-Sequins-embroidery-ADAP.webp", album: "Embroidery" },
