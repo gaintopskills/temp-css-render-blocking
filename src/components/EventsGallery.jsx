@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 export const EventsGallery = () => {
     const categories = [
-        "Embroidery",
+        "Cotton On",
         "Patches",
         "Sublimation",
         "Photographic Embroidery",
@@ -13,13 +13,13 @@ export const EventsGallery = () => {
     ];
 
     const images = [
-        { src: "/embroidery/custom-embroidery-los-angeles.webp", album: "Embroidery" },
-        { src: "/embroidery/custom-hat-embroidery.webp", album: "Embroidery" },
-        { src: "/embroidery/custom-bomber-jacket-embroidery.webp", album: "Embroidery" },
-        { src: "/embroidery/high-volume-embroidery.webp", album: "Embroidery" },
-        { src: "/embroidery/custom-towel-embroidery.webp", album: "Embroidery" },
-        { src: "/embroidery/wholesale-custom-hat-embroidery.webp", album: "Embroidery" },
-        { src: "/embroidery/high-volume-custom-hat-embroidery..webp", album: "Embroidery" },
+        { src: "/events-gallery/cotton-on/20170802_161812.jpg", album: "Cotton On" },
+        { src: "/events-gallery/cotton-on/20170802_161812a.jpg", album: "Cotton On" },
+        { src: "/events-gallery/cotton-on/20170802_161812b.jpg", album: "Cotton On" },
+        { src: "/events-gallery/cotton-on/20170802_161812d.jpg", album: "Cotton On" },
+        { src: "/events-gallery/cotton-on/20170802_161812c.jpg", album: "Cotton On" },
+        { src: "/events-gallery/cotton-on/20170802_161812v.jpg", album: "Cotton On" },
+        { src: "/events-gallery/cotton-on/cotton-on-events-with-custom-embroidered-products-los-angeles-la.jpg", album: "Cotton On" },
         { src: "/embroidery/custom-embroidery-services-los-angeles.webp", album: "Embroidery" },
         { src: "/embroidery/wholesale-custom-embroidered-hats.webp", album: "Embroidery" },
         { src: "/embroidery/wilson-custom-embroidery.webp", album: "Embroidery" },
@@ -81,9 +81,6 @@ export const EventsGallery = () => {
         <div className="min-h-screen p-6 bg-black text-white">
            
                 <h1>Gallery</h1>
-           <p>Our diverse embellishment techniques are done in one house and can be combined to create stunning results! See the examples of our work below.</p>
-<p>From simple samples to full-fledged production of 15,000 + units, we are ready to take on any project.</p>
-
             <main className="p-4">
                 <div className="flex flex-wrap gap-2 mb-6">
                     {categories.map((category) => (
