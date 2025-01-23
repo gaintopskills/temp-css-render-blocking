@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-export const Gallery4 = () => {
+export const EventsGallery = () => {
     const categories = [
         "Embroidery",
         "Patches",
@@ -136,4 +136,4 @@ export const Gallery4 = () => {
     );
 };
 
-export default Gallery4;
+export default EventsGallery;
