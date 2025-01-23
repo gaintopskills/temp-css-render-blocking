@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 export const EventsGallery = () => {
     const categories = [
         "Cotton On",
-        "Patches",
+        "Guess 3rd Street",
         "Sublimation",
         "Photographic Embroidery",
         "DTG",
@@ -20,15 +20,15 @@ export const EventsGallery = () => {
         { src: "/events-gallery/cotton-on/20170802_161812v.jpg", album: "Cotton On" },
         { src: "/events-gallery/cotton-on/cotton-on-events-with-custom-embroidered-products-los-angeles-la.jpg", album: "Cotton On" },
         
-        { src: "/events-gallery/guess/Guess-3rd-Street-Store-Event-Custom-Events-with-embroidered-products-la.jpg", album: "Guess" },
-        { src: "/events-gallery/guess/Guess-3rd-Street-Store-Event-Custom-Events-with-embroidered-products-ca.jpg", album: "Guess" },
-        { src: "/events-gallery/guess/Guess-3rd-Street-Store-Event-Custom-Events-with-embroidered-products-7.jpg", album: "Guess" },
-        { src: "/events-gallery/guess/Guess-3rd-Street-Store-Event-Custom-Events-with-embroidered-products-6.jpg", album: "Guess" },
-        { src: "/events-gallery/guess/Guess-3rd-Street-Store-Event-Custom-Events-with-embroidered-products-4.jpg", album: "Guess" },
-        { src: "/events-gallery/guess/Guess-3rd-Street-Store-Event-Custom-Events-with-embroidered-products-3.jpg", album: "Guess" },
-        { src: "/events-gallery/guess/Guess-3rd-Street-Store-Event-Custom-Events-with-embroidered-products-2.jpg", album: "Guess" },
-        { src: "/events-gallery/guess/Guess-3rd-Street-Store-Event-Custom-Events-with-embroidered-products-1.jpg", album: "Guess" },
-        { src: "/events-gallery/guess/Guess-3rd-Street-Store-Event-Custom-Events-with-embroidered-products.jpg", album: "Guess" },
+        { src: "/events-gallery/guess/Guess-3rd-Street-Store-Event-Custom-Events-with-embroidered-products-la.jpg", album: "Guess 3rd Street" },
+        { src: "/events-gallery/guess/Guess-3rd-Street-Store-Event-Custom-Events-with-embroidered-products-ca.jpg", album: "Guess 3rd Street" },
+        { src: "/events-gallery/guess/Guess-3rd-Street-Store-Event-Custom-Events-with-embroidered-products-7.jpg", album: "Guess 3rd Street" },
+        { src: "/events-gallery/guess/Guess-3rd-Street-Store-Event-Custom-Events-with-embroidered-products-6.jpg", album: "Guess 3rd Street" },
+        { src: "/events-gallery/guess/Guess-3rd-Street-Store-Event-Custom-Events-with-embroidered-products-4.jpg", album: "Guess 3rd Street" },
+        { src: "/events-gallery/guess/Guess-3rd-Street-Store-Event-Custom-Events-with-embroidered-products-3.jpg", album: "Guess 3rd Street" },
+        { src: "/events-gallery/guess/Guess-3rd-Street-Store-Event-Custom-Events-with-embroidered-products-2.jpg", album: "Guess 3rd Street" },
+        { src: "/events-gallery/guess/Guess-3rd-Street-Store-Event-Custom-Events-with-embroidered-products-1.jpg", album: "Guess 3rd Street" },
+        { src: "/events-gallery/guess/Guess-3rd-Street-Store-Event-Custom-Events-with-embroidered-products.jpg", album: "Guess 3rd Street" },
         
         { src: "/embroidery/los-angeles-embroidery-fashion-frame-denim-jeans-by-sasha-designer-clothes-custom-artwork.webp", album: "Embroidery" },
         { src: "/embroidery/los-angeles-embroidery-fashion-frame-denim-jeans-by-sasha-designer-clothes-custom-patches.webp", album: "Embroidery" },
