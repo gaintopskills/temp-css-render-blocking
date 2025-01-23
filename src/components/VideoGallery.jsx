@@ -5,7 +5,7 @@ const videoData = [
     id: "1",
     title: "Amazing Event Highlights",
     thumbnail: "/events-gallery/cotton-on/20170802_161812.jpg",
-    url: "https://www.youtube.com/watch?v=YX7RrMCnVfw",
+    url: "https://www.youtube.com/embed/YX7RrMCnVfw",
   },
   {
     id: "2",
