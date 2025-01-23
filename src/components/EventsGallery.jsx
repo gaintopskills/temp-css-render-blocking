@@ -4,7 +4,7 @@ export const EventsGallery = () => {
     const categories = [
         "Cotton On",
         "Guess 3rd Street",
-        "Sublimation",
+        "Bikini a Day by Guess",
         "Photographic Embroidery",
         "DTG",
         "Screen Printing",
@@ -30,12 +30,13 @@ export const EventsGallery = () => {
         { src: "/events-gallery/guess/Guess-3rd-Street-Store-Event-Custom-Events-with-embroidered-products-1.jpg", album: "Guess 3rd Street" },
         { src: "/events-gallery/guess/Guess-3rd-Street-Store-Event-Custom-Events-with-embroidered-products.jpg", album: "Guess 3rd Street" },
         
-        { src: "/embroidery/los-angeles-embroidery-fashion-frame-denim-jeans-by-sasha-designer-clothes-custom-artwork.webp", album: "Embroidery" },
-        { src: "/embroidery/los-angeles-embroidery-fashion-frame-denim-jeans-by-sasha-designer-clothes-custom-patches.webp", album: "Embroidery" },
-        { src: "/patches/DTLA-Downtown-LA-Los-Angeles-Custom-Patches-3d-puff-embroidery-Sequins-embroidery-ADAP.webp", album: "Embroidery" },
-        { src: "/patches/dtla-los-angeles-custom-embroidery-travis-scott-custom-selebrity-jacket.webp", album: "Embroidery" },
-        { src: "/patches/dtla-los-angeles-custom-embroidery-travis-scott-custom-selebrity-hat-cap-snap-back-rodeo.webp", album: "Embroidery" },
-        { src: "/patches/dtla-los-angeles-custom-embroidery-travis-theweekend-the-weekend-selebrity-jacket.webp", album: "Embroidery" },
+        { src: "/event-gallery/guess-bikini/Los-Angeles-Embroidery-A-Bikini-A-Dya-by-guess-custom-towels-h-and-a.jpg, album: "Bikini a Day by Guess" },
+        { src: "/event-gallery/guess-bikini/Los-Angeles-Embroidery-A-Bikini-A-Dya-by-guess-custom-towels-Custom-Embroidery-Events.jpg", album: "Bikini a Day by Guess" },
+        { src: "/event-gallery/guess-bikini/Los-Angeles-Embroidery-A-Bikini-A-Dya-by-guess-custom-towels.jpg", album: "Bikini a Day by Guess" },
+        { src: "/event-gallery/guess-bikini/Los-Angeles-Embroidery-A-Bikini-A-Dya-by-guess-custom-towel.jpg", album: "Bikini a Day by Guess" },
+        { src: "/event-gallery/guess-bikini/Los-Angeles-Embroidery-A-Bikini-A-Dya-by-guess.jpg", album: "Bikini a Day by Guess" },
+        { src: "/event-gallery/guess-bikini/Embroidery-near-me-A-Bikini-A-Dya-by-guess-custom-towels-.jpg", album: "Bikini a Day by Guess" },
+       
         { src: "/patches/Los-angeles-embroidery-and-print-best-color-matching-sublimation-vibrancy-and-detail-minneapolis.webp", album: "Embroidery" },
         { src: "/patches/custom-high-quality-patches-los-angeles-la-justin-bieber-military-jacket-purpose-tour.webp", album: "Embroidery" },
         { src: "/patches/los-angeles-patches-la-sublimation-and-embroidery-guns-n-roses.webp", album: "Patches" },
