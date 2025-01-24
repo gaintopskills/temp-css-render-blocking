@@ -33,13 +33,14 @@ const footerData = [
   {
     title: "Company",
     items: [
-      { label: "About Us", href: "/about", title: "Learn more about our company" },
-      { label: "Contact Us", href: "/contact", title: "Get in touch with us" },
+      { label: "About Us", href: "/about-us/", title: "Learn more about our company" },
+      { label: "Contact Us", href: "/contact-us/", title: "Get in touch with us" },
+      { label: "Privacy Policy", href: "/privacy-policy/", title: "Get in touch with us" },
+      
       {
         type: "map",
         content: (
           <div className="mt-6">
-            <h4 className="text-gray-400 mb-2">Contact Us</h4>
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.408420352062!2d-118.23258982341378!3d34.00772592317397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c8954d3aac83%3A0xabb842d065790870!2sE%26R%20Unlimited%20Embroidery!5e0!3m2!1sen!2sus!4v1736545461770!5m2!1sen!2sus"
               width="100%"
