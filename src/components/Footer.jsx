@@ -24,7 +24,9 @@ const footerData = [
       { label: "Photographic Embroidery", href: "/los-angeles-photographic-embroidery/", title: "Get professional logo design services" },
       { label: "Promotional Products", href: "/2017/11/05/promotional-products/", title: "Create custom labels and tags" },
       { label: "Screen Printing Vs DTG", href: "/screen-printing-dirrect-to-guarment/", title: "Launch your own private label brand" },
-      { label: "Brand Consulting", href: "/services/brand-consulting", title: "Receive expert brand consulting" },
+      { label: "3D Puff Embroidery", href: "/3d-puff-hat-embroidery-in-los-angeles/", title: "Receive expert brand consulting" },
+      { label: "Baseball Cap Embroidery", href: "/custom-embroidered-caps-los-angeles-screen-printed-and-sublimated-caps-wholesale/", title: "Receive expert brand consulting" },
+      
     ],
   },
   {
