@@ -104,7 +104,7 @@ export const Footer = () => {
               
               {/* Services Column */}
               {footerData.map((section, index) => (
-                <div key={index} className="w-full md:w-1/3 lg:w-auto mb-16 md:mb-0">
+                <div key={index} className="w-full md:w-1/3  mb-16 md:mb-0">
                   <h3 className="mb-6 text-2xl font-bold text-primaryText">
                     {section.title}
                   </h3>
@@ -118,9 +118,9 @@ export const Footer = () => {
                         );
                       }
                       return (
-                        <li key={`link-${idx}`} className="mb-4">
+                        <li key={`link-${idx}`} className="mb-0">
                           <a
-                            className="text-gray-400 hover:text-gray-300"
+                            className="text-gray-400 hover:text-gray-300 text-sm"
                             href={item.href}
                             title={item.title}  // Adds tooltip title
                             aria-label={item.label}
