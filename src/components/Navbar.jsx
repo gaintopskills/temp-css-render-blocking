@@ -7,8 +7,8 @@ import { GithubIcon } from '../assets/icons/GithubIcon';
 const navbarLinks = [
   { label: 'Home', href: '/#home', ariaLabel: 'Home' },
   {
-    label: 'Services',
-    href: '/#features',
+    label: 'Services', 
+    href: '/fashion-industry/',
     ariaLabel: 'Services',
     children: [
       { label: 'Embroidery', href: '/custom-embroidery-services-high-volume/', ariaLabel: 'Sub-feature 3' },
