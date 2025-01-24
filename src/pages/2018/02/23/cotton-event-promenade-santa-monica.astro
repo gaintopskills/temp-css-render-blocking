@@ -1,0 +1,29 @@
+---
+import Layout from '../../../../layouts/Layout.astro'
+import { Navbar } from '../../../../components/Navbar.jsx'
+import { Footer } from '../../../../components/Footer.jsx'
+import { ScrollUpButton } from '../../../../components/ScrollUpButton.jsx'
+---
+<Layout title="Custom Cotton On Event at the Promenade Santa Monica">
+  <Navbar client:load />
+  <div class="container mx-auto p-4 mt-8">
+  <h1>Custom Cotton On Event at the Promenade Santa Monica</h1>
+  <div class="image-text-container">
+  <figure class="image-wrapper">
+    <img
+      src="/events-gallery/cotton-on/20170802_161812v.jpg"
+      alt="Custom Cotton On Event at the Promenade Santa Monica"
+      width="500"
+      height="500"
+    />
+    <figcaption>Custom Cotton On Event at the Promenade Santa Monica</figcaption>
+  </figure>
+  <div class="text-content">
+  <p>As part of a network of thousands of factories in the U.S.A. and abroad, in addition to our own in house capabilities, we are happy to provide you with ANY custom logo product. From pens, to mugs, to apparel, tote bags, floormats, usb charging banks, etc., we would be glad to provide you a free quote and will strive to match or beat any competitor’s quote. We are your one stop shop for all custom logo and promo products. Call us for a free quote or fill out the form.</p>
+</div></div>
+
+
+</div>
+  <Footer />
+  <ScrollUpButton client:load />
+</Layout>
