@@ -28,6 +28,8 @@ const footerData = [
       { label: "Baseball Cap Embroidery", href: "/custom-embroidered-caps-los-angeles-screen-printed-and-sublimated-caps-wholesale/", title: "Receive expert brand consulting" },
       { label: "Custom Hat Embroidery", href: "/custom-embroidered-hats-los-angeles/", title: "Receive expert brand consulting" },
       { label: "Beanie Embroidery", href: "/personalized-custom-beanie-embroidery-los-angeles-high-volume-production-wholesale-pricing/", title: "Receive expert brand consulting" },
+      { label: "Sublimation On Hats", href: "/wholesale-sublimation-printing-cap-manufacturer-custom-digital-print-snapback-cap/", title: "Receive expert brand consulting" },
+      
     ],
   },
   {
