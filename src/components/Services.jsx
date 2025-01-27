@@ -35,7 +35,7 @@ const services = [
     description:
       "Our Cut and Sew services provide complete customization, from pattern creation to finished products. Whether it's unique apparel, uniforms, or tailored designs, we ensure precision, quality, and attention to detail in every stitch.",
     image: "/icons/cut-and-sew.webp",
-    link: "/cut-sew/",
+    link: "/cut-and-sew/",
   },
   {
     title: "Heat Transfer",
