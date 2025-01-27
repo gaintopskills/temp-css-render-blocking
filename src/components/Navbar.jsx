@@ -8,7 +8,7 @@ const navbarLinks = [
   { label: 'Home', href: '/#home', ariaLabel: 'Home' },
   {
     label: 'Services', 
-    href: '/fashion-industry/',
+    href: '#',
     ariaLabel: 'Services',
     children: [
       { label: 'Embroidery', href: '/custom-embroidery-services-high-volume/', ariaLabel: 'Sub-feature 3' },
