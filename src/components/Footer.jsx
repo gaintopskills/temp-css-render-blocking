@@ -5,15 +5,15 @@ import { TiktokIcon } from "../assets/icons/TiktokIcon";
 
 const footerData = [
   {
-    title: "Services", href: "/fashion-industry/", title: "Explore our apparel embelishment services and more"
+    title: "Services", href: "/fashion-industry/", title: "Explore our apparel embelishment services and more",
     items: [
       { label: "Embroidery", href: "/custom-patches-los-angeles/", title: "Explore our embroidery services" },
       { label: "Screen Printing", href: "/screen-printing-dirrect-to-guarment/", title: "Learn about screen printing" },
       { label: "DTG", href: "/los-angeles-screen-printing-direct-to-garment-dtg/", title: "Discover Direct to Garment (DTG) printing" },
       { label: "Digital Sublimation", href: "/los-angeles-digital-sublimation-printing/", title: "View our sublimation printing options" },
       { label: "Heat Transfer", href: "/los-angeles-heat-transfer/", title: "Find out more about heat transfer printing" },
-      { label: "Cut & Sew", href: "/services/cut-sew", title: "Get custom cut & sew manufacturing" },
-      { label: "Blank Apparel", href: "/services/blank-apparel", title: "Browse our blank apparel collection" },
+      { label: "Cut & Sew", href: "/services/cut-sew/", title: "Get custom cut & sew manufacturing" },
+      { label: "Blank Apparel", href: "/blank-apparel/", title: "Browse our blank apparel collection" },
       { label: "Events", href: "/onsite-live-embroidery-events-los-angeles/", title: "Browse our blank apparel collection" },
     ],
   },
