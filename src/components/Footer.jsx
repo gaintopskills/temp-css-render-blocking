@@ -12,7 +12,7 @@ const footerData = [
       { label: "DTG", href: "/los-angeles-screen-printing-direct-to-garment-dtg/", title: "Discover Direct to Garment (DTG) printing" },
       { label: "Digital Sublimation", href: "/los-angeles-digital-sublimation-printing/", title: "View our sublimation printing options" },
       { label: "Heat Transfer", href: "/los-angeles-heat-transfer/", title: "Find out more about heat transfer printing" },
-      { label: "Cut & Sew", href: "/services/cut-sew/", title: "Get custom cut & sew manufacturing" },
+      { label: "Cut & Sew", href: "/services/cut-and-sew/", title: "Get custom cut & sew manufacturing" },
       { label: "Blank Apparel", href: "/blank-apparel/", title: "Browse our blank apparel collection" },
       { label: "Events", href: "/onsite-live-embroidery-events-los-angeles/", title: "Browse our blank apparel collection" },
     ],
