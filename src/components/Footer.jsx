@@ -5,7 +5,7 @@ import { TiktokIcon } from "../assets/icons/TiktokIcon";
 
 const footerData = [
   {
-    title: "Services",
+    title: "Services", href: "/fashion-industry/", title: "Explore our apparel embelishment services and more"
     items: [
       { label: "Embroidery", href: "/custom-patches-los-angeles/", title: "Explore our embroidery services" },
       { label: "Screen Printing", href: "/screen-printing-dirrect-to-guarment/", title: "Learn about screen printing" },
