@@ -40,9 +40,7 @@ export const NavbarHome = () => {
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.3 }} exit={{ opacity: 0 }}>
           <a href="/#home" aria-label="Home">
             <div className="flex justify-start items-center grow basis-0">
-              <div className="text-white mr-2 text-6xl">
-                <TailcastLogo />
-              </div>
+              
               <div className="text-white font-['Inter'] font-bold text-xl"></div>
             </div>
           </a>
